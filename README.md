@@ -1,4 +1,4 @@
-#puppet-dbdeployer
+# puppet-dbdeployer
 
 Puppet manifest to install dbdeployer 
 
@@ -6,7 +6,7 @@ Puppet manifest to install dbdeployer
 
 See [dbdeployer site](https://www.dbdeployer.com/)
 
-##Example:
+## Example:
 
 ```puppet
 node 'ubuntu01.smartpurposes.net' inherits test_defaults {
