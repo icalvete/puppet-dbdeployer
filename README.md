@@ -14,6 +14,6 @@ node 'ubuntu01.smartpurposes.net' inherits test_defaults {
 }
 ```
 
-##Authors:
+## Authors:
 
 Israel Calvete Talavera <icalvete@gmail.com>
