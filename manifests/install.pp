@@ -7,7 +7,7 @@ class dbdeployer::install {
     group  => 'root',
     mode   => '0775',
   }
-  
+
   wget::fetch { 'download_dbdeployer':
     source      => "https://github.com/datacharmer/dbdeployer/releases/download/v1.16.0/dbdeployer-1.16.0.linux.tar.gz",
     destination => $dbdeployer::install_dir,
